@@ -1,0 +1,141 @@
+
+
+/* Size section */
+.earth-animal__sizes--content{
+    width: 100%;
+    overflow: auto;
+}
+
+.earth-animal__sizes--content .sizes__single-item{
+    padding: 13px;
+}
+
+.earth-animal__sizes--content .sizes__single-item:first-child{
+    padding-left: 0;
+}
+
+.earth-animal__sizes--content .sizes__single-item:last-child{
+    padding-right: 0;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--img{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text{
+    padding: 40px 15px;
+    background: rgba(239, 130, 34, 0.2);
+    text-align: center;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text p{
+    font-size: 16px;
+}
+
+.earth-animal__sizes .sizes__description{
+    padding: 20px 15px;
+}
+
+.earth-animal__sizes .sizes__description p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+
+/* Variety proteins */
+.earth-animal .variety-proteins__content{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.earth-animal .variety-proteins__content--wrapper{
+    align-items: flex-end;
+}
+
+.earth-animal .variety-proteins__single-item{
+    padding: 13px;
+}
+
+.earth-animal .variety-proteins__single-item a{
+    display: block;
+}
+
+.earth-animal .variety-proteins__single-item--img{
+    max-width: 200px;
+}
+
+.earth-animal .variety-proteins__single-item--text{
+    text-align: center;
+}
+
+.earth-animal .variety-proteins__single-item--text h3{
+    color: #000;
+    font-size: 18px;
+}
+
+.earth-animal .variety-proteins__single-item--text .cta-underline{
+    padding: 30px 0;
+}
+
+
+/* Bottom Hero */
+.earth-animal .bottom-hero{
+    background: rgba(15, 159, 170, 0.2);
+    display: block;
+    margin: 100px 0;
+}
+
+.earth-animal .bottom-hero__bg{
+    background-image: url("img/petco-earth-animal-bottom-hero-ingredient.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.earth-animal .bottom-hero__content{
+
+}
+
+.earth-animal .bottom-hero__content-wrapper{
+    min-height: 300px;
+}
+
+.earth-animal .bottom-hero__content-wrapper--col{
+    position: relative;
+    width: 50%;
+}
+
+.earth-animal .bottom-hero__content--img{
+    position: absolute;
+    top: -223px;
+    padding: 30px;
+}
+
+.earth-animal .bottom-hero__content--text{
+    text-align: center;
+}
+
+.earth-animal .bottom-hero__content--text h2{
+    font-size: 25px;
+    color: #000000;
+}
+
+.earth-animal .bottom-hero__content--text h2 sup{
+    font-size: 16px;
+}
+
+.earth-animal .bottom-hero__content--text p{
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 15px;
+    max-width: 530px;
+    margin: 0 auto;
+}

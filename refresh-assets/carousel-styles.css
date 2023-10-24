@@ -1,0 +1,451 @@
+/* Common styles */
+
+.citrus_tidyCat {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.citrus_tidyCat a {
+  text-decoration: none;
+}
+
+.citrus_tidyCat img {
+  width: 100%;
+}
+
+.citrus_instinct .section-title{
+  display: block;
+  text-align: center;
+  padding: 48px 15px 60px;
+}
+
+.citrus_instinct .section-title h2{
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000000;
+  padding: 0 0 20px;
+  margin: 0;
+}
+
+.citrus_instinct .section-title p{
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+}
+
+.citrus_tidyCat__commonCTA {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #001952;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 211px;
+  height: 56px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: 900;
+  margin: 0 auto;
+}
+
+.citrus_tidyCat__desktop_block {
+  display: block;
+}
+
+.citrus_tidyCat__mobile_block {
+  display: none;
+}
+
+/* Overflow Scrollbar */
+.citrus_tidyCat-wrapper::-webkit-scrollbar,
+.citrus_tidyCatDogCat__ProductCarousel-wrapper::-webkit-scrollbar,
+.citrus_tidyCat__RawFoodContainer::-webkit-scrollbar,
+.citrus_instinct__productCarousel-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.citrus_instinct__productCarousel-wrapper,
+.citrus_tidyCat__RawFoodContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Product Carousel section */
+.citrus_instinct__productCarousel-wrapper,
+.citrus_tidyCatDogCat__ProductCarousel-wrapper {
+  width: 100%;
+  margin: auto;
+  overflow-x: auto;
+}
+
+.citrus_instinctTabId {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.citrus_instinct__tab-area {
+  overflow: hidden;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.citrus_instinct__tab-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.citrus_tidyCatDogCat__tab-container.citrus_tidyCatDogCat__main-tab-content {
+  max-width: 1273px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.splide__pagination {
+  display: none;
+}
+
+.citrus_instinct__Product {
+  display: none;
+}
+
+.citrus_instinct__Product img {
+  object-fit: contain;
+}
+
+.citrus_tidyCatDogCat__Product {
+  display: none;
+}
+
+.citrus_tidyCatDogCat__Product img {
+  object-fit: contain;
+}
+
+.citrus_instinct-tab-card a{
+  text-align: center;
+}
+
+.citrus_instinct-tab-cardImg img {
+  max-width: 100%;
+  max-height: 175px;
+}
+
+.citrus_instinct-tab-card > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.citrus_instinct-tab-card p {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  margin: 20px 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+.citrus_tidyCatDogCat__cardBody {
+  padding-top: 20px;
+}
+
+.citrus_tidyCatDogCat__cardBody h3 {
+  font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+.citrus_tidyCatDogCat__cardBody p {
+  margin-top: 10px;
+}
+
+p.citrus_tidyCatDogCat_details {
+  margin: auto;
+  padding: 10px 35px;
+  -webkit-line-clamp: 4;
+  line-clamp: unset;
+  min-height: 4em;
+}
+
+.citrus_instinct__Product .citrus_instinct-tab-cardBody h4{
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-size: 20px;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.citrus_instinct__productCTA {
+  border: 0;
+  padding: 25px 0 0;
+  background: none;
+  text-decoration: underline;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.groupCtaDimention {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+
+.groupCtaDimention p {
+  line-height: 18px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  margin-top: 0;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.citrus_instinct_groupProductCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  margin: auto;
+}
+
+.groupCtaArrow p {
+  font-size: 36px !important;
+  margin-top: 0;
+}
+
+.citrus_tidyCatDogCat__ProductCTA {
+  border: 0;
+  background: none;
+  text-decoration: underline;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.citrus_instinct__Products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.citrus_tidyCatDogCat__Products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 1273px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.citrus_instinct-tab-cardImg {
+  padding: 0 10px;
+  margin: auto;
+  margin: 0 auto 25px;
+}
+
+.citrusTabShow {
+  display: block;
+}
+
+.citrus_instinct__groupProductShot {
+  border: 1px solid #001952;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.citrus_instinct__groupProductShot__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+
+.citrus_instinct__groupProductShotImage img {
+  max-height: 144px;
+  padding: 20px 0;
+}
+
+.citrus_instinct_groupProductCTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  margin: auto;
+  padding: 0;
+}
+
+.groupCtaDimention {
+  display: flex;
+  flex-direction: column;
+  font-weight: 900;
+}
+
+.groupCtaDimention p {
+  line-height: 18px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  color: #001952;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+.groupCtaArrow p {
+  font-size: 34px;
+  margin-top: 0;
+}
+
+.citrus_instinct__tab_item {
+  text-transform: uppercase;
+  padding: 12px 20px;
+  margin: 0px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 10px solid transparent;
+  cursor: pointer;
+  color: #9b9b9b;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.citrus_instinct__tab_item img{
+  width: 50px;
+  margin: 0 auto;
+}
+
+.citrus_instinct__tab_item.citrus_instinct__active_tab{
+  color: #001952;
+  border-bottom: 10px solid #001952;
+  border-radius: 0;
+}
+
+.citrus_instinctTabId {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #021b4e;
+}
+
+#citrus_tidyCat__boringToBon {
+  padding-bottom: 10px !important;
+}
+
+/* hide arrow */
+.citrus_tidyCat_hide_arrow .splide__arrows {
+  display: none;
+}
+
+@media screen and (min-width: 922px) and (max-width: 1120px) {
+  .citrus_tidyCat__commonCTA {
+    width: 170px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .citrus_tidyCat__commonCTA {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* product section */
+  .citrus_instinctTabId {
+    width: max-content;
+    margin: 0 auto 20px;
+  }
+
+  .citrus_instinct__tab-container {
+    width: 100%;
+  }
+
+  #citrus_tidyCat__boringToBon {
+    padding-bottom: 10px !important;
+  }
+
+  .citrus_tidyCat__commonCTA {
+    font-size: 16px;
+    color: #001952;
+    text-transform: capitalize;
+    background: none;
+    padding: 0;
+    text-decoration: underline !important;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-weight: 900;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .citrus_instinct__Product {
+    max-width: 195px;
+  }
+}
+
+@media all and (max-width: 375px) {
+  #citrus_tidyCat__boringToBon {
+    width: 214px;
+    margin: auto;
+    padding-bottom: 10px !important;
+  }
+
+  #citrus_tidyCat__mouthwatering {
+    width: 332px;
+    margin: auto;
+  }
+}
+
+/* custom css */
+.splide__arrow:disabled {
+  opacity: 0;
+}
+

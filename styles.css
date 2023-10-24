@@ -34,13 +34,13 @@
     }
 
    
-    .all-overflow a {
+    .citrus_instinct a {
         margin: 0;
         padding: 0;
         text-decoration: none;
     }
 
-    .all-overflow a:hover {
+    .citrus_instinct a:hover {
         text-decoration: none;
     }
 
@@ -61,7 +61,7 @@
         width: 100% !important;
     }
 
-    .all-overflow {
+    .citrus_instinct {
         overflow: hidden !important;
     }
 

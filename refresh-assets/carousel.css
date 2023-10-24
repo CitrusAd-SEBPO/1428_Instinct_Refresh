@@ -1,0 +1,193 @@
+.citrus-vetdiet-cta-box-tab {
+  min-width: 211px;
+  border-radius: 0.25rem;
+  background-color: #001952;
+  padding: 1rem 0;
+  text-align: center;
+  color: #fff;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  border: 1px solid #001952;
+}
+
+.citrus-vetdiet-cta-box-tab:hover {
+  color: #001952 !important;
+  background: #fff;
+  border: 1px solid #001952;
+}
+
+/* Products Tabs */
+.citrus-vetdiet-main-tab-content {
+  padding: 0 1rem;
+}
+
+.citrus-vetdiet-tab-area {
+  overflow: hidden;
+  padding-top: 35px;
+  padding-bottom: 26px;
+}
+
+.citrus-vetdiet-tab-container {
+  max-width: 1246px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.citrus_vetdiet_dog_tab_item.citrusTabshow {
+  display: block;
+}
+
+.citrus_vetdiet_dog_tab_item {
+  display: none;
+}
+
+.citrus_vetdiet_tab {
+  padding-bottom: 40px;
+}
+
+.citrus_vetdiet_tab_item span {
+  display: block;
+}
+
+.citrus_vetdiet_tab_btn_single,
+.citrus_vetdiet_tab_btn2_single {
+  text-transform: uppercase;
+  padding: 0 20px 12px;
+  margin: 0px 10px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #6E6B6B;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-weight: 700;
+  line-height: 1.3;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 8px solid #fff;
+}
+
+button {
+  font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
+.citrus_vetdiet_tab_btn_single.citrus_vetdiet_tab_btn_single_active,
+.citrus_vetdiet_tab_btn2_single.citrus_vetdiet_tab_btn2_single_active {
+  color: #001952;
+  border-bottom: 8px solid #001952;
+  border-radius: unset;
+}
+
+.citrus-vetdiet-tab__btn,
+.citrus-vetdiet-tab__btn2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #021B4E;
+}
+
+.citrus_vetdiet_tab_controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.citrus_vetdiet_tab_item .single-tab-text {
+  text-align: left;
+}
+
+.citrus_vetdiet_tab_item .single-tab-text p {
+  font-size: 13px;
+  line-height: 18px !important;
+  padding: 20px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 1em;
+  margin-bottom: 24px;
+}
+
+.citrus-inner-img22 {
+  padding: 0 15px;
+}
+
+.citrus-inner-img22 > a img {
+  width: 100%;
+  height: auto;
+}
+
+.citrus_vetdiet_tab_item.citrus_row_opacity_0 {
+  opacity: 0;
+}
+
+.citrus_vetdiet_tab_wrapper .splide__pagination {
+  display: none;
+}
+
+.citrus-meet-tab-product > a {
+  color: #001952;
+  font-size: 16px;
+  display: block;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  text-decoration: underline;
+}
+
+.citrus_vetdiet_tab_controls .splide__arrow--next {
+  right: 0px;
+}
+
+.citrus_vetdiet_tab_controls .splide__arrow--prev {
+  left: 2px;
+}
+
+.citrus_vetdiet_tab_controls .splide__arrow svg {
+  fill: #122359;
+}
+
+.citrus_vetdiet_tab_controls .splide__arrow {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #122359;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  height: 2.2em;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 2.2em;
+  z-index: 1;
+}
+
+/* custom css */
+.splide__arrow:disabled {
+  opacity: 0;
+}
+/*# sourceMappingURL=carousel.css.map */

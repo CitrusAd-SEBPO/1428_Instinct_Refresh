@@ -1,0 +1,483 @@
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * All domains belonging to Petco
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2020
+ */
+
+
+ @font-face {
+    font-family: PetcoCircularTT-Regular;
+    src: url(../fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+      url(../fonts/PetcoCircularTT-Regular.woff) format("woff");
+  }
+  @font-face {
+    font-family: PetcoCircularTT-Bold;
+    src: url(../fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+      url(../fonts/PetcoCircularTT-Bold.woff) format("woff");
+  }
+
+/* All the common classes that have common styles */
+.citrus_purina *{
+    margin: 0;
+    padding: 0;
+    line-height: initial !important;
+}
+
+
+/* Show hide class */
+.m-hide{
+    display: block;
+}
+
+.d-hide{
+    display: none;
+}
+
+
+.citrus_purina a{
+    text-decoration: none;
+}
+
+.citrus_purina img{
+    width: 100%;
+}
+
+.citrus_purina h1, h2, h3{
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+.citrus_purina p {
+    font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
+.citrus_purina .cta-box{
+    width: 210px;
+    margin: 0 auto;
+}
+
+.citrus_purina .cta-box a{
+    border-radius: 5px;
+    color: #fff;
+    background: #001952;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #001952;
+}
+
+.citrus_purina .cta-box a:hover{
+    background: #fff;
+    color: #001952;
+    border: 1px solid #001952;
+    transition: 0.5s ease-in-out;
+}
+
+.citrus_purina .cta-underline{
+ font-size: 16px;
+ color: #001952;
+ text-decoration: underline;
+ text-transform: capitalize;
+ font-family: "PetcoCircularTT-Bold", arial !important;
+ cursor: pointer;
+}
+
+.citrus_purina .custom-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.citrus_purina .container-full{
+    width: 100%;
+}
+
+.citrus_purina .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.citrus_purina__section-title{
+    padding: 25px 15px;
+}
+
+.citrus_purina__section-title sup{
+    font-size: 16px;
+}
+
+.citrus_purina .section-padding30{
+    padding: 30px 0;
+}
+
+.citrus_purina__section-title h2{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+
+
+
+
+/* All the custom styles */
+
+
+/* Size section */
+.citrus_purina__sizes--content{
+    width: 100%;
+    overflow: auto;
+}
+
+.citrus_purina__sizes--content .sizes__single-item{
+    padding: 13px;
+}
+
+.citrus_purina__sizes--content .sizes__single-item:first-child{
+    padding-left: 0;
+}
+
+.citrus_purina__sizes--content .sizes__single-item:last-child{
+    padding-right: 0;
+}
+
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--img{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text{
+    padding: 40px 15px;
+    background: rgba(239, 130, 34, 0.2);
+    text-align: center;
+}
+
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.citrus_purina__sizes--content .sizes__single-item .sizes__single-item--text p{
+    font-size: 16px;
+}
+
+.citrus_purina__sizes .sizes__description{
+    padding: 20px 15px;
+}
+
+.citrus_purina__sizes .sizes__description p{
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+
+/* Variety proteins */
+.citrus_purina .variety-proteins__content{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.citrus_purina .variety-proteins__content--wrapper{
+    align-items: flex-end;
+}
+
+.citrus_purina .variety-proteins__single-item{
+    padding: 13px;
+}
+
+.citrus_purina .variety-proteins__single-item a{
+    display: block;
+}
+
+.citrus_purina .variety-proteins__single-item--img{
+    max-width: 200px;
+}
+
+.citrus_purina .variety-proteins__single-item--text{
+    text-align: center;
+}
+
+.citrus_purina .variety-proteins__single-item--text h3{
+    color: #000;
+    font-size: 18px;
+}
+
+.citrus_purina .variety-proteins__single-item--text .cta-underline{
+    padding: 30px 0;
+}
+
+
+/* Bottom Hero */
+.citrus_purina .bottom-hero{
+    background: rgba(15, 159, 170, 0.2);
+    display: block;
+    margin: 100px 0;
+}
+
+.citrus_purina .bottom-hero__bg{
+    background-image: url("img/petco-citrus_purina-bottom-hero-ingredient.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.citrus_purina .bottom-hero__content{
+
+}
+
+.citrus_purina .bottom-hero__content-wrapper{
+    min-height: 300px;
+}
+
+.citrus_purina .bottom-hero__content-wrapper--col{
+    position: relative;
+    width: 50%;
+}
+
+.citrus_purina .bottom-hero__content--img{
+    position: absolute;
+    top: -223px;
+    padding: 30px;
+}
+
+.citrus_purina .bottom-hero__content--text{
+    text-align: center;
+}
+
+.citrus_purina .bottom-hero__content--text h2{
+    font-size: 25px;
+    color: #000000;
+}
+
+.citrus_purina .bottom-hero__content--text h2 sup{
+    font-size: 16px;
+}
+
+.citrus_purina .bottom-hero__content--text p{
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 15px;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+
+/* Medium devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    /* Bottom Hero */
+    .citrus_purina .bottom-hero__content-wrapper{
+        min-height: 250px;
+    }
+    
+    .citrus_purina .bottom-hero__content--img{
+        top: -180px;
+    }
+    
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* POV Section */
+    .citrus_earth_animal__pov--text h1 {
+        font-size: 30px;
+    }
+
+    /* Bottom Hero */
+    .citrus_purina .bottom-hero__content-wrapper{
+        min-height: 230px;
+    }
+    
+    .citrus_purina .bottom-hero__content--img{
+        top: -128px;
+        padding: 0;
+    }
+    
+}
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+
+    /* Show hide class */
+    .m-hide{
+        display: none;
+    }
+
+    .d-hide{
+        display: block;
+    }
+
+    /* CTA Styles */
+    .citrus_purina .cta-box {
+        width: 100%;
+    }
+
+    .citrus_purina .cta-box a{
+        text-transform: capitalize;
+        text-decoration: underline;
+        color: #001952 !important;
+        background: none !important;
+        border: none !important;
+    }
+
+    .citrus_purina .cta-box a:hover{
+        color: #001952;
+        border: none;
+    }
+
+    /* POV section */
+    .citrus_earth_animal_carousel-item .custom-container {
+        flex-wrap: wrap;
+    }
+
+    .citrus_earth_animal_carousel-inner{
+        align-items: flex-start !important;
+        min-height: fit-content;
+    }
+
+    .citrus_earth_animal_carousel-inner .pov1{
+        background-image: none;
+        background: #489399;
+    }
+    .citrus_earth_animal_carousel-inner .pov2{
+        background-image: none;
+        background: #001952;
+    }
+    .citrus_earth_animal_carousel-inner .pov3{
+        background-image: none;
+        background: #D58641;
+    }
+
+    .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal_carousel-item__col:last-child{
+        background-image: url("img/petco-citrus_purina-pov1-mob.jpg");
+    }
+    .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child{
+        background-image: url("img/petco-citrus_purina-pov2-mob.jpg");
+    }
+    .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal_carousel-item__col:last-child{
+        background-image: url("img/petco-citrus_purina-pov3-mob.jpg");
+    }
+
+    .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child .citrus_earth_animal__pov--shots{
+        opacity: 1;
+    }
+
+    .citrus_earth_animal_carousel-item__col{
+        width: 100%;
+    }
+
+    .citrus_earth_animal_carousel-item__col:first-child{
+        order: 2;
+        padding: 40px 15px;
+        min-height: 290px;
+    }
+
+    .citrus_earth_animal__pov--logo {
+        max-width: 130px;
+        margin: 0 auto;
+    }
+
+    .citrus_earth_animal__pov--shots{
+        max-width: 70%;
+    }
+
+    .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal__pov--shots img{
+
+    }
+
+    .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal__pov--shots{
+        margin: 0 auto;
+    }
+
+    .citrus_earth_animal__pov--text{
+        padding: 0 15px;
+    }
+
+    .citrus_earth_animal__pov--text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .citrus_earth_animal__pov--text p {
+        text-align: center;
+    }
+
+    .citrus_earth_animal_carousel-item__col .citrus_earth_animal__pov--cta a{
+        color: #fff !important;
+    }
+
+    /* Size section */
+    .citrus_purina__sizes--content-wrapper{
+        overflow-x: auto;
+        width: 260%;
+    }
+
+    .citrus_purina__sizes--content .sizes__single-item{
+        width: 70%;
+    }
+
+    /* Variety proteins */
+    .citrus_purina .variety-proteins__content--wrapper{
+        overflow-x: auto;
+        width: 245%;
+    }
+
+    .citrus_purina .variety-proteins__single-item{
+        width: 40%;
+    }
+
+
+    /* Bottom Hero */
+    .citrus_purina .bottom-hero {
+        margin: 50px 0 30px;
+    }
+
+    .citrus_purina .bottom-hero__bg{
+        background-image: none;
+    }
+
+    .citrus_purina .bottom-hero__content-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .citrus_purina .bottom-hero__content-wrapper--col{
+        width: 100%;
+    }
+
+    .citrus_purina .bottom-hero__content-wrapper--col:first-child{
+        order: 2;
+    }
+
+    .citrus_purina .bottom-hero__content--text {
+        padding: 40px 15px 30px;
+    }
+
+    .bottom-hero__content--text .cta-box a{
+        color: #001952 !important;
+    }
+
+    .citrus_purina .bottom-hero__content--img{
+        padding: 0;
+        position: unset;
+        display: flex;
+    }
+
+
+}
