@@ -1,4 +1,4 @@
-    /*
+/*
  * Legal Disclaimer
  *
  * These web fonts are licensed exclusively for use on the following:
@@ -12,340 +12,415 @@
  * Lineto.com, 2020
  */
 
+@font-face {
+  font-family: PetcoCircularTT-Regular;
+  src: url(fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Regular.woff) format("woff");
+}
 
-    @font-face {
-        font-family: PetcoCircularTT-Regular;
-        src: url(assets/fonts/PetcoCircularTT-Regular.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Regular.woff) format("woff")
-    }
+@font-face {
+  font-family: PetcoCircularTT-Bold;
+  src: url(fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
 
-    @font-face {
-        font-family: PetcoCircularTT-Bold;
-        src: url(assets/fonts/PetcoCircularTT-Bold.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Bold.woff) format("woff")
-    }
+/*Default css*/
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+.citrus_instinct .custom-container {
+  max-width: 1277px;
+  width: 100%;
+  margin: 0 auto;
+  display: block !important;
+}
 
-    /*Default css*/
-    body {
-        margin: 0;
-        padding: 0;
-        font-size: 16px;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-    }
+.citrus_instinct {
+  overflow: hidden !important;
+}
 
+/* Refresh POV */
+.citrus-instinct-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
-    .citrus_instinct .custom-container {
-        max-width: 1277px;
-        width: 100%;
-        margin: 0 auto;
-        display: block !important;
-    }
+.citrus_instinct__pov {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-    .citrus_instinct {
-        overflow: hidden !important;
-    }
+.citrus_instinct__pov .citrus_instinct__pov-carousel {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
 
-    /* Refresh POV */
-    .citrus-instinct-flex {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner {
+  display: flex;
+  transition: all ease 0.5s;
+}
 
-    .citrus_instinct__pov {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        max-width: 1440px;
-        margin: 0 auto;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner
+  .pov2 {
+  color: #fff;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel {
-        position: relative;
-        display: flex;
-        overflow: hidden;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item {
+  width: 100%;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner {
-        display: flex;
-        transition: all ease .5s;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper {
+  z-index: 999;
+  text-align: center;
+  align-items: flex-start;
+  min-height: 240px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner .pov2 {
-        color: #fff;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__pov-img {
+  position: absolute;
+  z-index: -1;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item {
-        width: 100%;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__pov-img
+  img {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper {
-        z-index: 999;
-        text-align: center;
-        align-items: flex-start;
-        min-height: 240px;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__logo {
+  width: 100%;
+  padding: 10px 0 0;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__pov-img {
-        position: absolute;
-        z-index: -1;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__logo
+  img {
+  max-width: 130px;
+  margin: 0 auto;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__pov-img img {
-        width: 100%;
-        max-width: 1440px;
-        margin: 0 auto;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__title
+  h1 {
+  color: #001952;
+  font-size: 26px;
+  line-height: 30px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__logo {
-        width: 100%;
-        padding: 18px 0 5px;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__title
+  .sup-script {
+  display: contents;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__logo img {
-        max-width: 130px;
-        margin: 0 auto;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__title
+  .sup-script
+  sup {
+  margin: 0 0 0 3px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__title h1 {
-        color: #001952;
-        font-size: 26px;
-        line-height: 40px;
-        font-family: "PetcoCircularTT-Bold", arial !important;
-        font-weight: bold;
-        display: block;
-        margin: 0;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__title
+  sup {
+  font-size: 18px;
+  vertical-align: revert;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__title .sup-script{
-        display: contents;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper
+  .pov2-flawk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__title .sup-script sup{
-        margin: 0 0 0 3px;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper
+  .pov2-flawk
+  img {
+  width: 35px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__title sup{
-        font-size: 18px;
-        vertical-align: revert;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner
+  .pov2
+  .content-wrapper__title,
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner
+  .pov2
+  .content-wrapper__sub-title {
+  color: #fff;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper .pov2-flawk {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner
+  .pov2
+  .content-wrapper__cta
+  a {
+  color: #001952;
+  background: #fff;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper .pov2-flawk img{
-        width: 35px;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner
+  .pov2
+  .content-wrapper__cta
+  a:hover {
+  background: #001952;
+  color: #fff;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner .pov2 .content-wrapper__title,
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner .pov2 .content-wrapper__sub-title {
-        color: #fff;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__sub-title
+  p {
+  color: #001952;
+  font-size: 16px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-weight: 400;
+  line-height: initial;
+  margin: 0 auto;
+  max-width: 480px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner .pov2 .content-wrapper__cta a {
-        color: #001952;
-        background: #fff;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__cta {
+  width: 100%;
+  padding-bottom: 25px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner .pov2 .content-wrapper__cta a:hover {
-        background: #001952;
-        color: #fff;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__cta
+  a {
+  background: #001952;
+  display: inline-block;
+  margin: 0px 20px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  padding: 21px 37px 21px 37px;
+  border-radius: 5px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__sub-title p {
-        color: #001952;
-        font-size: 16px;
-        font-family: "PetcoCircularTT-Regular", arial !important;
-        font-weight: 400;
-        line-height: initial;
-        margin: 0 auto;
-        max-width: 480px;
-    }
+.citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__cta
+  a:hover {
+  color: #001952;
+  background: #fff;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__cta {
-        width: 100%;
-        padding-bottom: 25px;
-    }
+.citrus_instinct_carousel-indicators {
+  width: 94px;
+  list-style: none;
+  text-align: center;
+  left: calc(100% / 2 - 45px);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 5px 0 6px;
+  border-radius: 5px 5px 0 0;
+  bottom: -2px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__cta a {
-        background: #001952;
-        display: inline-block;
-        margin: 0px 20px;
-        font-family: "PetcoCircularTT-Bold", arial !important;
-        padding: 21px 37px 21px 37px;
-        border-radius: 5px;
-        color: #fff;
-        text-transform: uppercase;
-        font-size: 16px;
-    }
+.citrus_instinct_carousel-indicators span {
+  display: inline-block;
+  cursor: pointer;
+  margin: 3px 5px 0;
+  font-size: 0;
+  line-height: 0;
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+  color: transparent;
+  outline: 0;
+  background: transparent;
+  border: 1px solid #00205b;
+  border-radius: 50%;
+  padding: 0;
+}
 
-    .citrus_instinct__pov .citrus_instinct__pov-carousel .citrus_instinct__pov-carousel__inner--item .content-wrapper__cta a:hover {
-        color: #001952;
-        background: #fff;
-    }
+.citrus_instinct_carousel-indicators span.active {
+  opacity: 1;
+  background: #00205b;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transition: 0.5s ease-in;
+  transform: scale(1);
+}
 
-    .citrus_instinct_carousel-indicators {
-        width: 94px;
-        list-style: none;
-        text-align: center;
-        left: calc(100%/2 - 45px);
-        background: rgba(255, 255, 255, 0.90);
-        padding: 10px 0 6px;
-        border-radius: 5px 5px 0 0;
-        bottom: -2px;
-        position: absolute;
-        right: 0;
-        z-index: 1;
-    }
+/* End Refresh POV */
 
-    .citrus_instinct_carousel-indicators span {
-        display: inline-block;
-        cursor: pointer;
-        margin: 3px 5px 0;
-        font-size: 0;
-        line-height: 0;
-        width: 12px;
-        height: 12px;
-        cursor: pointer;
-        color: transparent;
-        outline: 0;
-        background: transparent;
-        border: 1px solid #00205B;
-        border-radius: 50%;
-        padding: 0;
+/**************************************/
+/************ transition pet  Area*************/
+/************************************/
+.citrus_instinct__transition-pet-area {
+  overflow: hidden;
+  background: #fff;
+  padding: 0 15px;
+}
 
-    }
+.citrus_instinct__transition-pet-area .custom-container {
+  max-width: 1052px;
+}
 
-    .citrus_instinct_carousel-indicators span.active {
-        opacity: 1;
-        background: #00205B;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        transition: 0.5s ease-in;
-        transform: scale(1);
-    }
+.citrus_instinct .citrus_instinct__transition-pet-area .section-title h2 {
+  padding: 0;
+}
 
-    /* End Refresh POV */
+.citrus_instinct__transition-pet-main-flex {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 20px 7fr;
+  grid-template-columns: 5fr 7fr;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+}
 
+.citrus_instinct .transition-pet-inner-img > img {
+  width: 100%;
+  height: auto;
+}
 
+.citrus_instinct__transition-pet-area .common-heading {
+  padding-bottom: 75px;
+}
 
-    /**************************************/
-    /************ transition pet  Area*************/
-    /************************************/
-    .citrus_instinct__transition-pet-area {
-        overflow: hidden;
-        background: #fff;
-        padding: 0 15px;
-    }
+.citrus_instinct .transition-pet-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 55px;
+  position: relative;
+}
 
-    .citrus_instinct__transition-pet-area .custom-container{
-        max-width: 1052px;
-    }
+.citrus_instinct .transition-pet-list-item::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 145%;
+  background: #001952;
+  top: 30px;
+  left: 15px;
+}
 
-    .citrus_instinct .citrus_instinct__transition-pet-area .section-title h2{
-        padding: 0;
-    }
+.citrus_instinct
+  .transition-pet-right
+  .transition-pet-list-item:last-child::after {
+  display: none;
+}
 
-    .citrus_instinct__transition-pet-main-flex {
-        display: -ms-grid;
-        display: grid;
-        -ms-grid-columns: 5fr 20px 7fr;
-        grid-template-columns: 5fr 7fr;
-        -webkit-column-gap: 20px;
-        -moz-column-gap: 20px;
-        column-gap: 20px;
-    }
+.citrus_instinct .transition-number-content > small {
+  font-size: 14px;
+  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-weight: 400;
+  display: block;
+  padding-top: 25px;
+}
 
-    .citrus_instinct .transition-pet-inner-img>img {
-        width: 100%;
-        height: auto;
-    }
+.citrus_instinct .transition-number {
+  width: 32px;
+  height: 32px;
+  background: #001952;
+  border-radius: 50%;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+}
 
-    .citrus_instinct__transition-pet-area .common-heading {
-        padding-bottom: 75px;
-    }
+.citrus_instinct .transition-number > span {
+  color: #fff;
+  text-align: center;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  font-weight: bold;
+}
 
+.citrus_instinct .transition-number-content > h4 {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "PetcoCircularTT-Bold", arial !important;
+  display: block;
+  padding: 2px 0 10px;
+  margin: 0;
+}
 
-    .citrus_instinct .transition-pet-list-item {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        margin-bottom: 55px;
-        position: relative;
-    }
+.citrus_instinct .transition-number-content > p {
+  color: #000000;
+  font-size: 18px;
+  width: 70%;
+  line-height: 1.1;
+  margin: 0;
+}
 
-    .citrus_instinct .transition-pet-list-item::after {
-        position: absolute;
-        content: "";
-        width: 2px;
-        height: 145%;
-        background: #001952;
-        top: 30px;
-        left: 15px;
-    }
-
-    .citrus_instinct .transition-pet-right .transition-pet-list-item:last-child::after {
-        display: none;
-    }
-
-    .citrus_instinct .transition-number-content>small {
-        font-size: 14px;
-        font-family: "PetcoCircularTT-Regular", arial !important;
-        font-weight: 400;
-        display: block;
-        padding-top: 25px;
-    }
-
-    .citrus_instinct .transition-number {
-        width: 32px;
-        height: 32px;
-        background: #001952;
-        border-radius: 50%;
-        line-height: 32px;
-        color: #fff;
-        text-align: center;
-    }
-
-    .citrus_instinct .transition-number>span {
-        color: #fff;
-        text-align: center;
-        font-family: "PetcoCircularTT-Bold", arial !important;
-        font-weight: bold;
-
-    }
-
-    .citrus_instinct .transition-number-content>h4 {
-        color: #000000;
-        font-size: 25px;
-        font-weight: bold;
-        font-family: "PetcoCircularTT-Bold", arial !important;
-        display: block;
-        padding: 2px 0 10px;
-        margin: 0;
-    }
-
-    .citrus_instinct .transition-number-content>p {
-        color: #000000;
-        font-size: 18px;
-        width: 70%;
-        line-height: 1.1;
-        margin: 0;
-    }
-
-
-
-
-    .citrus_instinct .transition-number-content {
-        margin-left: 20px;
-        -webkit-box-flex: 0;
-        -ms-flex: 0 0 90%;
-        flex: 0 0 90%;
-    }
-
+.citrus_instinct .transition-number-content {
+  margin-left: 20px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 90%;
+  flex: 0 0 90%;
+}

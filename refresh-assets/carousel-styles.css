@@ -1,12 +1,12 @@
 /* Common styles */
 
-.citrus_instinct .section-title{
+.citrus_instinct .section-title {
   display: block;
   text-align: center;
   padding: 50px 15px;
 }
 
-.citrus_instinct .section-title h2{
+.citrus_instinct .section-title h2 {
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 25px;
   font-weight: 700;
@@ -15,7 +15,7 @@
   margin: 0;
 }
 
-.citrus_instinct .section-title p{
+.citrus_instinct .section-title p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   font-size: 16px;
   font-weight: 500;
@@ -23,7 +23,6 @@
   padding: 0;
   margin: 0;
 }
-
 
 .citrus_instinctTabId {
   width: 100%;
@@ -54,7 +53,7 @@
   object-fit: contain;
 }
 
-.citrus_instinct-tab-card a{
+.citrus_instinct-tab-card a {
   text-align: center;
 }
 
@@ -71,8 +70,8 @@
 .citrus_instinct-tab-card p {
   font-family: "PetcoCircularTT-Regular", arial !important;
   color: #333333;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 13px;
+  line-height: 20px;
   text-align: left;
   margin: 20px 0 10px;
   text-decoration: none;
@@ -81,7 +80,7 @@
   margin: 0;
 }
 
-.citrus_instinct__Product .citrus_instinct-tab-cardBody h4{
+.citrus_instinct__Product .citrus_instinct-tab-cardBody h4 {
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 20px;
   margin: 0;
@@ -130,7 +129,6 @@
   font-size: 36px !important;
   margin-top: 0;
 }
-
 
 .citrus_instinct__Products {
   display: -webkit-box;
@@ -224,13 +222,12 @@
   align-items: center;
 }
 
-
-.citrus_instinct__tab_item img{
+.citrus_instinct__tab_item img {
   max-width: 50px;
   margin: 0 auto;
 }
 
-.citrus_instinct__tab_item.citrus_instinct__active_tab{
+.citrus_instinct__tab_item.citrus_instinct__active_tab {
   color: #001952;
   border-bottom: 10px solid #001952;
   border-radius: 0;
@@ -254,4 +251,3 @@
 .splide__arrow:disabled {
   opacity: 0;
 }
-
