@@ -96,10 +96,6 @@
   /* padding: 0 15px; */
 }
 
-.citrus_instinct__explore .citrus_instinct__explore--content {
-  overflow-x: auto;
-}
-
 .citrus_instinct__explore .content-wrapper {
   align-items: flex-start;
   justify-content: flex-start;
@@ -214,6 +210,9 @@
     object-fit: cover;
     min-height: 240px;
   }
+  .citrus_instinct__explore .citrus_instinct__explore--content {
+    overflow-x: auto;
+  }
 }
 @media (max-width: 767px) {
   /* pov */
@@ -280,6 +279,9 @@
     a {
     color: #fff;
     background: unset;
+  }
+  .citrus_instinct__explore .citrus_instinct__explore--content {
+    overflow-x: auto;
   }
 }
 
