@@ -1,0 +1,54 @@
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+    
+    /* Show hide class */
+    .m-hide{
+        display: none;
+    }
+
+    .d-hide{
+        display: block;
+    }
+
+    /* Explore Section */
+    .citrus_instinct__explore .content-wrapper a {
+        min-width: 50%;
+    }
+
+    /* Product Scroller */
+    .citrus_instinct .splide__arrow{
+        display: none;
+    }
+
+    .citrus_instinct__Product {
+        min-width: 56%;
+    }
+
+    /* Transition Section */
+    .citrus_instinct__transition-pet-main-flex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .citrus_instinct__transition-pet-main-flex .transition-pet-right{
+        padding: 30px 0;
+    }
+
+    .citrus_instinct .transition-number{
+        display: block;
+    }
+
+    .citrus_instinct .transition-number>span{
+        width: 32px;
+        display: block;
+    }
+
+    /* Benefits Section */
+    .citrus_instinct .citrus_instinct_banefits__wrapper--single-item {
+        padding: 0 15px;
+        min-width: 50%;
+    }
+
+}
