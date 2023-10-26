@@ -169,8 +169,9 @@ body {
   .citrus_instinct__pov-carousel__inner--item
   .content-wrapper__title
   sup {
-  font-size: 18px;
+  font-size: 16px;
   vertical-align: revert;
+  margin: 0 0 0 2px;
 }
 
 .citrus_instinct__pov
@@ -416,6 +417,7 @@ body {
   width: 70%;
   line-height: 1.1;
   margin: 0;
+  font-family: "PetcoCircularTT-Regular", arial !important;
 }
 
 .citrus_instinct .transition-number-content {

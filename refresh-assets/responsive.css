@@ -12,6 +12,15 @@
         display: block;
     }
 
+    /* Hero POV */
+    .citrus_instinct__pov
+  .citrus_instinct__pov-carousel
+  .citrus_instinct__pov-carousel__inner--item
+  .content-wrapper__title
+  sup {
+    font-size: 14px;
+    }
+
     /* Explore Section */
     .citrus_instinct__explore .content-wrapper a {
         min-width: 50%;
@@ -49,6 +58,20 @@
     .citrus_instinct .citrus_instinct_banefits__wrapper--single-item {
         padding: 0 15px;
         min-width: 50%;
+    }
+
+    .citrus_instinct .citrus_instinct_banefits .cta-box a{
+        text-transform: capitalize;
+        background: transparent;
+        color: #001952;
+        border: none;
+        text-decoration: underline;
+    }
+
+    .citrus_instinct .citrus_instinct_banefits .cta-box a:hover {
+        background: transparent;
+        color: #001952;
+        transition: none;
     }
 
 }

@@ -84,7 +84,8 @@
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 20px;
   margin: 0;
-  padding: 30px 0;
+  padding: 30px 0 10px;
+  min-height: 40px;
 }
 
 .citrus_instinct__productCTA {
@@ -145,24 +146,28 @@
 .citrus_instinct-tab-cardImg {
   padding: 0 10px;
   margin: auto;
-  margin: 0 auto 25px;
+  margin: 0 auto 10px;
 }
 
 .citrusTabShow {
   display: block;
 }
 
+.citrus_instinct__groupProductShot__item a{
+  padding: 20px 0 0;
+}
+
 .citrus_instinct__groupProductShot {
   border: 1px solid #001952;
   border-radius: 10px;
   text-decoration: none;
+  max-height: 300px;
 }
 
 .citrus_instinct__groupProductShot__item {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   margin: auto;
 }
 
@@ -194,6 +199,7 @@
   color: #001952;
   margin-top: 0;
   text-decoration: underline;
+  text-align: left;
 }
 
 .groupCtaArrow p {
