@@ -1,0 +1,5 @@
+live QA feedback only updated handover folder html files.
+
+please don't start refresh work default staging html file. if you need to rework pull the handover folder most latest html file and start recode. 
+
+thank you.
